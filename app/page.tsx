@@ -39,7 +39,7 @@ const Home = async () => {
       </section>
 
       <section className="trending-section">
-        <h2 className="section-text font-serif">ShopList</h2>
+        <h2 className="head-text">Your Cart</h2>
 
         <div className="flex flex-wrap gap-x-8 gap-y-16">
           {allProducts?.map((product) => (
