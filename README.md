@@ -1,3 +1,50 @@
+# Smart Retail Application
+
+**Team:** HELLO WORLD
+
+## Introduction
+
+This application leverages web scraping to track product details from e-commerce sites, currently focusing on Amazon. It utilizes Cheerio and Bright Data for scraping and integrates Nodemailer for sending email notifications. This is an experimental app designed to understand and demonstrate the capabilities of web scraping on a large scale.
+
+## Problem Statement
+
+Tracking product details and prices on e-commerce sites can be challenging and time-consuming for consumers. Manual tracking is inefficient and requires a tool that automates the process to improve efficiency.
+
+## Solution
+
+Our web scraping application is designed to automate the tracking of product details. The app:
+- Utilizes web scraping to collect data from Amazon.
+- Sends email notifications for updates using Nodemailer.
+
+## Key Features
+
+- **Web Scraping:** Efficient data extraction using Cheerio and Bright Data.
+- **Email Notifications:** Sends updates to users via Nodemailer.
+- **Real-Time Tracking:** Continuously monitors product details.
+- **User-Friendly Interface:** Easy to navigate and use.
+
+## Technologies Used
+
+- **Cheerio:** Parses and manipulates HTML for scraping.
+- **Bright Data:** Provides reliable and scalable web scraping.
+- **Nodemailer:** Sends email updates.
+- **Node.js:** The backbone of the application.
+
+## Benefits
+
+- Saves time and effort for consumers.
+- Provides real-time updates on product details.
+- Enhances the online shopping experience.
+
+## Possible Improvements
+
+- Expand tracking to more e-commerce sites.
+- Enhance the user interface.
+- Improve the efficiency and speed of data collection.
+
+---------------------------------------------------------------------------------
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
