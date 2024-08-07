@@ -7,7 +7,7 @@
 2. Narendra Singh Chouhan - 22BCE11678
 3. Harsh Singh Parihar - 22BAI10082
 4. Chhavi - 22BCE10560
-5. Hemant Parmar - 22BCE
+5. Hemant Parmar - 22BCE10424
 
 ## Project Description
 
