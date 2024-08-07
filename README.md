@@ -1,83 +1,83 @@
-# Smart Retail Application
+Here's the updated README without the Nodemailer section and with a more detailed breakdown of the technologies used:
+
+---
+
+# Prispy - Smart Retail Application
 
 **Team:** HELLO WORLD
 
-## Introduction
+**Team Members:**
+1. Member 1 - Reg. No: XXXX
+2. Member 2 - Reg. No: XXXX
+3. Member 3 - Reg. No: XXXX
+4. Member 4 - Reg. No: XXXX
+5. Member 5 - Reg. No: XXXX
 
-This application leverages web scraping to track product details from e-commerce sites, currently focusing on Amazon. It utilizes Cheerio and Bright Data for scraping and integrates Nodemailer for sending email notifications. This is an experimental app designed to understand and demonstrate the capabilities of web scraping on a large scale.
+## Project Description
 
-## Problem Statement
+### Introduction
+Prispy is a smart retail application designed to automate the tracking of product details from e-commerce sites, specifically Amazon. The app helps users keep track of product prices and availability, making online shopping more efficient.
 
-Tracking product details and prices on e-commerce sites can be challenging and time-consuming for consumers. Manual tracking is inefficient and requires a tool that automates the process to improve efficiency.
+### Problem Statement
+Consumers often face challenges in manually tracking product details and prices on e-commerce platforms, which can be time-consuming and prone to missed opportunities for better deals. An automated solution can streamline this process, providing real-time information and reducing manual effort.
 
-## Solution
+### Solution
+Prispy addresses this problem by:
+- Utilizing web scraping techniques to collect data from Amazon.
+- Providing a simple user interface for easy interaction with the scraped data.
 
-Our web scraping application is designed to automate the tracking of product details. The app:
-- Utilizes web scraping to collect data from Amazon.
-- Sends email notifications for updates using Nodemailer.
-
-## Key Features
-
-- **Web Scraping:** Efficient data extraction using Cheerio and Bright Data.
-- **Email Notifications:** Sends updates to users via Nodemailer.
-- **Real-Time Tracking:** Continuously monitors product details.
-- **User-Friendly Interface:** Easy to navigate and use.
+### Key Features
+- **Web Scraping:** Efficiently gathers data using Cheerio and Bright Data.
+- **Real-Time Tracking:** Continuously monitors product information.
+- **User-Friendly Interface:** Allows easy navigation and interaction with the application.
 
 ## Technologies Used
 
-- **Cheerio:** Parses and manipulates HTML for scraping.
-- **Bright Data:** Provides reliable and scalable web scraping.
-- **Nodemailer:** Sends email updates.
-- **Node.js:** The backbone of the application.
+### Frontend
+- **React:** A JavaScript library for building user interfaces.
+- **Next.js:** A React framework for server-side rendering and generating static websites.
+- **Tailwind CSS:** A utility-first CSS framework for styling.
 
-## Benefits
+### Backend
+- **Node.js:** A JavaScript runtime built on Chrome's V8 engine for server-side development.
+- **Express:** A web application framework for Node.js.
 
-- Saves time and effort for consumers.
-- Provides real-time updates on product details.
-- Enhances the online shopping experience.
+### APIs & Web Scraping
+- **Cheerio:** A fast, flexible, and lean implementation of core jQuery for server-side web scraping.
+- **Bright Data:** A reliable provider for web scraping and data collection services.
 
-## Possible Improvements
+### Database
+- **MongoDB:** A NoSQL database for storing scraped product data.
 
-- Expand tracking to more e-commerce sites.
-- Enhance the user interface.
-- Improve the efficiency and speed of data collection.
+## Setup Instructions
+1. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+2. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+3. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
----------------------------------------------------------------------------------
+## Usage Instructions
+1. Input an Amazon product link in the provided field and click "Search."
+2. The application will scrape the product details and display them in the cart below.
+3. **Note:** Ensure that the link is from the Amazon website. The application currently supports only Amazon, and there may be instances where data retrieval is inconsistent due to the nature of web scraping.
+4. Click on a product card to view detailed information about the product.
 
+## Theme Fit
+**Smart Retail:** Prispy enhances the online shopping experience by providing a smart solution for tracking product details and prices on e-commerce sites. By automating this process, it saves users time and ensures they are informed about product updates, aligning with the "Smart Retail" theme by optimizing and modernizing retail practices.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Future Enhancements
+- Expand tracking capabilities to include other e-commerce sites.
+- Improve the user interface for better user engagement.
+- Optimize the efficiency and speed of the web scraping process.
 
-## Getting Started
+---
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to reach out to me at: https://github.com/drave-coding to get a better insight of the app. Always open to feedback and critics.
