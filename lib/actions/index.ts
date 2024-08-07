@@ -85,7 +85,8 @@ export async function scrapeAndStoreProduct(productUrl: string) {
       if(!currentProduct) return null;
   
       const similarProducts = await Product.find({
-        _id: { $ne: productId },
+        category: currentProduct.category,
+        _id: { $ne: currentProduct._id }
       }).limit(3);
   
       return similarProducts;
