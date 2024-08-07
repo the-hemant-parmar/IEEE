@@ -70,9 +70,9 @@ Prispy addresses this problem by:
 **Smart Retail:** Prispy enhances the online shopping experience by providing a smart solution for tracking product details and prices on e-commerce sites. By automating this process, it saves users time and ensures they are informed about product updates, aligning with the "Smart Retail" theme by optimizing and modernizing retail practices.
 
 ## Future Enhancements
-- Expand tracking capabilities to include other e-commerce sites.
-- Improve the user interface for better user engagement.
-- Optimize the efficiency and speed of the web scraping process.
+- **User Authentication:** Implement a secure authentication system for users to manage their preferences and tracked products.
+- **Email Notifications:** Add functionality to send email notifications to users about product updates, such as price drops or availability changes.
+- **Recommendation System:** Develop an AI-powered recommendation system to suggest similar or complementary products based on user preferences and browsing history.
 
 ---
 
