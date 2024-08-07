@@ -1,17 +1,13 @@
-Here's the updated README without the Nodemailer section and with a more detailed breakdown of the technologies used:
-
----
-
 # Prispy - Smart Retail Application
 
 **Team:** HELLO WORLD
 
 **Team Members:**
-1. Member 1 - Reg. No: XXXX
-2. Member 2 - Reg. No: XXXX
-3. Member 3 - Reg. No: XXXX
-4. Member 4 - Reg. No: XXXX
-5. Member 5 - Reg. No: XXXX
+1. Abhishek Das - 22BCE11236
+2. Narendra Singh Chouhan - 22BCE11678
+3. Harsh Singh Parihar - 22BAI10082
+4. Chhavi - 22BCE10560
+5. Hemant Parmar - 22BCE
 
 ## Project Description
 
